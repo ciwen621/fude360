@@ -31,7 +31,7 @@
   <h1>福德360｜環遊校園</h1>
   <div id="viewer" class="viewer">
     <canvas id="view" tabindex="0" aria-label="360° 全景。可拖曳或用方向鍵旋轉。"></canvas>
-    <div id="scene-label" class="scene-label">A｜上學校門</div>
+    <div id="scene-label" class="scene-label">A | 上學去</div>
     <div id="message" class="message"><p id="status" role="status">正在啟動播放器…</p></div>
   </div>
   <nav id="scenes" aria-label="切換校園場景"></nav>
@@ -47,7 +47,7 @@
 <script>
 (() => {
   "use strict";
-  const scenes = [{"label": "A｜上學校門", "file": "A.jpg"}, {"label": "B｜一樓聯絡走廊", "file": "B.jpg"}, {"label": "C｜前庭花園", "file": "C.jpg"}, {"label": "D｜中庭花園", "file": "D.jpg"}, {"label": "E｜小田園", "file": "E.jpg"}, {"label": "F｜操場三年級", "file": "F.jpg"}, {"label": "G｜幼兒園", "file": "G.jpg"}, {"label": "H｜二樓看操場", "file": "H.jpg"}];
+  const scenes = [{"label": "A | 上學去", "file": "A.jpg"}, {"label": "B | 聯絡走廊", "file": "B.jpg"}, {"label": "C | 前庭花園", "file": "C.jpg"}, {"label": "D | 中庭花園", "file": "D.jpg"}, {"label": "E | 小田園", "file": "E.jpg"}, {"label": "F | 操場", "file": "F.jpg"}, {"label": "G | 幼兒園", "file": "G.jpg"}, {"label": "H | 俯瞰校園", "file": "H.jpg"}];
   const viewer = document.querySelector("#viewer");
   const canvas = document.querySelector("#view");
   const sceneLabel = document.querySelector("#scene-label");
